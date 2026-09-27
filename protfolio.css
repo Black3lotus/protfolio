@@ -221,4 +221,18 @@ nav a{
     z-index: 5;
 }
 
+@media (max-width: 768px){
+    .main-container{
+        grid-template-columns: 1fr;
+        padding: 20px;
+        gap: 20px;
+    }
+    .sidebar{
+        height: auto;
+    }
+    nav{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
 
