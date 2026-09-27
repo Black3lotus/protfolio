@@ -220,21 +220,5 @@ nav a{
     left: 0px;
     z-index: 5;
 }
-@media screen and (max-width:750px) {
-    .project-container{
-        grid-template-columns: 1fr;
-    }
 
-    #navigation nav {
-        /* Adjust nav for smaller screens */
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .sidebar{
-        display: flex;
-        justify-content: center;
-        gap: 40px;
-    }
-}
 
