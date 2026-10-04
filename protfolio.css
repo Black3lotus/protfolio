@@ -235,4 +235,46 @@ nav a{
         flex-wrap: wrap;
     }
 }
+/* contact form */
+#contact{
+    max-width: 1100px;
+    margin: 0 auto 50px auto;
+    padding: 40px;
+    background-color: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    border-radius: 16px;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact input,
+#contact textarea{
+    background-color: #1e1e1e;
+    border: 2px solid #3a3a3a;
+    border-radius: 10px;
+    padding: 12px;
+    color: #e0e0e0;
+    font-family: inherit;
+}
+
+#contact input:focus,
+#contact textarea:focus{
+    outline: none;
+    border-color: #FFBF00;
+}
+
+#contact button{
+    align-self: flex-start;
+    background-color: #FFBF00;
+    color: #1e1e1e;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
